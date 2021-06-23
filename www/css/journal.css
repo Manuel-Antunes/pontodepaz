@@ -1,0 +1,76 @@
+h1 {
+    color: #146b86;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+textarea {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 100%;
+    margin-top: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.journal {
+    font-family: "Roboto Slab", serif;
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+button {
+    width: 100%;
+    padding: 2rem;
+    font-family: "Roboto Slab", serif;
+    background-color: #03a9f4;
+    color: #fff;
+    border-radius: 5px;
+    margin: 2rem 0;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+ul {
+    margin-top: 2rem;
+    list-style: none;
+}
+
+li {
+    background-color: rgba(0, 212, 255, 1);
+    padding: 3rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 2.5rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+li+li {
+    margin-top: 2rem;
+}
+
+span {
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 1rem;
+}

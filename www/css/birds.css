@@ -1,0 +1,12 @@
+.bird-group {
+    margin-top: 20%;
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    width: 80%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bird-group img {
+    width: 20px;
+}

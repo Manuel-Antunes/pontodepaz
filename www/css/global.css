@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: no-repeat linear-gradient( 0deg, rgba(255, 255, 255, 1) 0%, rgba(119, 227, 255, 1) 10%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    margin-top: 5rem;
+    padding: 10px;
+    align-items: center;
+}
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+h1 {
+    color: #146b86;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.frase-wrapper {
+    width: 100%;
+    display: flex;
+    font-size: 3rem;
+    background-color: #146b86;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.frase-wrapper i {
+    color: #fff;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.frase {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #fff;
+    margin: 50px;
+    font-family: "Roboto Slab", serif;
+}
