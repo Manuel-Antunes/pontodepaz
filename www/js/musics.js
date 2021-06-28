@@ -16,7 +16,6 @@ const musics = {
         "https://www.youtube.com/embed/dBHj3m96LpI",
         "https://www.youtube.com/embed/e_vCJfI4bIs",
         "https://www.youtube.com/embed/0SS7OH7LWb4",
-        "https://www.youtube.com/embed/0SS7OH7LWb4",
     ],
 }
 const selector = document.getElementById('gender');

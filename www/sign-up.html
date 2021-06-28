@@ -22,20 +22,28 @@
             <h1>Ponto de Paz</h1>
             <img src="img/logo.png" alt="logo ponto de Paz">
         </header>
-        <h2>Login</h2>
+        <h2>Registro</h2>
         <form action="loading.html" method="GET" id="sign" name="sign">
             <div class="form-control">
                 <label for="emal">Email</label>
                 <input type="email" name="email" id="email" placeholder="digite aqui." required>
             </div>
             <div class="form-control">
+                <label for="name">Nome</label>
+                <input type="name" name="name" id="name" placeholder="digite aqui." required>
+            </div>
+            <div class="form-control">
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password" placeholder="digite aqui." required>
             </div>
+            <div class="form-control">
+                <label for="password_confirmation">Confirmar Senha</label>
+                <input type="password" name="password_confirmation" id="password_confirmation" placeholder="digite aqui." required>
+            </div>
             <button type="submit">Logar</button>
             <div class="sign-aux">
-                <p>ainda não possui uma conta ?</p>
-                <a href="sign-up.html">crie uma.</a>
+                <p>já possui uma conta ?</p>
+                <a href="/">faça login.</a>
             </div>
         </form>
         <div class="bird-group" id="birds">
@@ -57,9 +65,11 @@
         <script>
             document.getElementById('sign').addEventListener('submit', (e) => {
                 e.preventDefault();
+                const name = document.forms.sign.name.value;
                 const email = document.forms.sign.email.value;
-                const password = document.forms.sign.password.value;
-                signIn(name, password);
+                console.log(name);
+                console.log(email);
+                signUp(name, email);
             })
         </script>
     </div>

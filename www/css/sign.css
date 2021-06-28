@@ -1,0 +1,55 @@
+header {
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    margin-left: 5rem;
+}
+
+header img {
+    margin-left: 2rem;
+    width: 50px;
+}
+
+form {
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.form-control {
+    font-size: 3rem;
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+button {
+    font-family: "Roboto Slab", serif;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #03a9f4;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.sign-aux {
+    width: 100%;
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+}
