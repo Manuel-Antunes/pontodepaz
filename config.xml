@@ -9,13 +9,6 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <universal-links>
-        <host name="DYNAMIC_LINK_DOMAIN" scheme="https" />
-        <host name="ponto-de-paz.firebaseapp.com" scheme="https">
-            <path url="/__/auth/callback"/>
-        </host>
-    </universal-links>
-    <preference name="AndroidLaunchMode" value="singleTask" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
